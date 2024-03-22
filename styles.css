@@ -8,6 +8,7 @@ header{
     width: 1920px;
     height: 308px;
     background-color: #0020F4;
+    position: relative;
 }
 .header{
     font-size: 32px;
@@ -15,22 +16,24 @@ header{
     padding-top: 70px;
     color: white;
     height: 38px;
+    position: relative;
 }
+
 .parent{
     margin-left: 240px;
+    position: relative;
 }
-.child{
+.child1{
     width: 463px;
     height: 420px;
     display: inline-block;
-    margin: 20px;
     position: relative;
+    
 }
 .p{
     font-size: 18px;
     line-height: 22px;
     background-color:#FFFFFF ;
-    position: absolute;
     top: 285px;
     left: 50%;
     transform: translateX(-50%);
@@ -38,5 +41,33 @@ header{
     width: 443px;
     height: 125px;
     border-radius: 12px;
-    padding: 30px 74px 30px 30px;
+    padding: 30px 74px 30px 45px;
+    position: absolute;
+}
+.headparent{
+    position: absolute;
+    top: 145px;
+}
+.child2{
+    top: -50px;
+    position: absolute;
+    width: 463px;
+    height: 420px;
+    margin: 30px;
+    display: inline-block;
+}
+.child3{
+    width: 463px;
+    height: 420px;
+    margin-left: 520px;
+    display: inline-block;
+    position: relative;
+    
+}
+.child4{
+    width: 463px;
+    height: 420px;
+    margin: 20px;
+    display: inline-block;
+    position: relative;
 }
